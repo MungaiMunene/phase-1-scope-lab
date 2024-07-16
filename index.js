@@ -1,1 +1,24 @@
-// Write your solution in this file!
+// Declare a variable in global scope called customerName
+var customerName = 'bob';
+
+// Write a function that accesses the global customerName variable, and uppercases it
+function upperCaseCustomerName() {
+    customerName = customerName.toUpperCase(); 
+} 
+
+// Write a function that when called, declares a variable called bestCustomer in global scope and assigns it to be 'not bob'
+function setBestCustomer() {
+ bestCustomer = 'not bob';  
+}
+// write variable that changes the bestCustomer variable to 'maybe bob'
+function overwriteBestCustomer() {
+    bestCustomer = 'maybe bob'; 
+}
+
+// declaring const
+const leastFavoriteCustomer = 'John';  
+
+// changing const with changeLeastFavoriteCustomer() 
+function changeLeastFavoriteCustomer() {
+    leastFavoriteCustomer = 'Johnson';
+}
